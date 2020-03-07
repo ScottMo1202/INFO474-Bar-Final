@@ -1,1 +1,1 @@
-# INFO474-Bar-Final
+# INFO474-FinalProject
