@@ -79,7 +79,7 @@
         var color = d3.scaleOrdinal().range(colors);
         d3.select('#chart').selectAll('svg').remove();
         let title = ''
-        if(selectedYear === 'All') {
+        if(selectedYear === 'All' || selectedYear === undefined) {
             title = 'Companies that Successfully Sponsored Most H1B Visas from 2011 - 2016'
         } else {
             title = 'Companies that Successfully Sponsored Most H1B Visas in ' + selectedYear
